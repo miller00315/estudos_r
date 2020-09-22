@@ -10,3 +10,5 @@ head(iris)
 
 sd(20)
 
+# Auxilia a compleender a a função
+help(mean)
