@@ -11,6 +11,7 @@ save(iristest, file = "iristest.Rdata")
 #Apaga os dados
 rm(iristest)
 
+#carregando arquivo da memória
 load(file = "iristest.Rdata")
 iristest
 
@@ -25,4 +26,7 @@ class(delta)
 logico <- TRUE
 logico <- F
 caractere <- "Texto"
+
+#imprime no terminal
+print(caractere)
 
